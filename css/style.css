@@ -356,12 +356,9 @@ padding-left: 0px;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
- 
   border-radius: 4px;
 }
-.icon-sputnik::before{
-  background-image: url(../imeges/grup/sputnik.svg);
-}
+
  .about-title{
   padding-top: 91px;
   padding-bottom:50px ;
@@ -407,7 +404,7 @@ padding-bottom: 94px;
   /* Розділ команда  */
 
   .comand{
-    padding-bottom: 94px;
+ 
     background-color: #F5F4FA;
     width: 1600px;
     height: 708px;
@@ -416,7 +413,7 @@ padding-bottom: 94px;
   }
   .comand-container{
     width: 1170px;
-    height: 368px;
+    height: 428px;
     padding-bottom: 94px;
   }
  .comand-title{
@@ -427,6 +424,7 @@ padding-bottom: 94px;
  .comand-list{
   display: flex;
   column-gap: 30px;
+
  }
  .container-item{
   padding-top: 30px;
@@ -434,11 +432,11 @@ padding-bottom: 94px;
  }
  .comand-item{
   width: 270px;
-  height: 368px;
+  height: 428px;
   border-radius: 0px 0px 4px 4px;
   border: 1px solid tomato;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-
+background-color: #fff;
  }
  .comand-item-title{
 padding-bottom: 10px;
@@ -451,7 +449,24 @@ padding-bottom: 10px;
     line-height: 19px;
     letter-spacing: 0.03em;
     color: #757575;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
+  }
+
+ 
+  .social-item{
+    width: 20px;
+  }
+  .item-social{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .social{
+    width: 44px;
+    height: 44px;
+    border: 1px solid tomato;
+    border-radius: 50px;
   }
 
   .visually-hidden{
