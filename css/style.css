@@ -170,9 +170,13 @@ color: #212121;
   color: #212121;
   text-decoration: none;
   }
-  .link-current:hover,.link-current:focus{
+  .link-current:hover, .link-current:focus svg{
     color: #2196F3;
   }  
+  .contact-icon:hover{
+    fill:#2196F3;
+  }
+ 
   .header .header-link,
   .header .header-contact{
     font-weight: 500;
@@ -215,11 +219,12 @@ color: #212121;
   margin-left: auto;
   column-gap: 50px;
 }
- 
+
  .icon-smartphone {
   width: 10px;
   height: 16px;
 }
+
 .icon-envelope {
   width: 16px;
   height: 12px;
@@ -343,6 +348,20 @@ padding-left: 0px;
 .about-item{
   padding-bottom: 10px;
 }
+.icon-group{
+  background-color:#F5F4FA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+ 
+  border-radius: 4px;
+}
+.icon-sputnik::before{
+  background-image: url(../imeges/grup/sputnik.svg);
+}
  .about-title{
   padding-top: 91px;
   padding-bottom:50px ;
@@ -376,7 +395,7 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     color: #757575;
   }
-  .about-item title, .comand-item-title{
+  .about-item-title, .comand-item-title{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -525,12 +544,23 @@ padding-bottom: 10px;
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
+.icon-smartphone-footer {
+  width: 10px;
+  height: 16px;
+  fill: #FFFFFF;
+}
+
+.icon-envelope-footer {
+  width: 16px;
+  height: 12px;
+  fill: #FFFFFF;
+}
 .current-footer{
   color: #fff;
   text-decoration: none;
   padding-top: 9px;
 }
-.current-footer:hover,.current-footer:focus{
+.current-footer:hover,.current-footer:focus svg{
   color: #2196F3;
 }  
 
