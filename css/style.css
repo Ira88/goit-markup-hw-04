@@ -97,7 +97,6 @@
   border-bottom: 1px solid var(--header-border-color);
 }
 
-
 .header-logo{
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -167,13 +166,13 @@ color: #212121;
     color: var(--secondary-text-color);
   }  
 .link-current {
-  color: #212121;
+  color: #757575;;
   text-decoration: none;
   }
   .link-current:hover, .link-current:focus svg{
     color: #2196F3;
   }  
-  .contact-icon:hover{
+  .link-current:hover svg{
     fill:#2196F3;
   }
  
@@ -223,11 +222,13 @@ color: #212121;
  .icon-smartphone {
   width: 10px;
   height: 16px;
+  color: #757575;
 }
 
 .icon-envelope {
   width: 16px;
   height: 12px;
+  color: #757575;
 }
 
   /* Розділ героя */
@@ -357,6 +358,9 @@ padding-left: 0px;
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
+}
+.icon-group :hover{
+  
 }
 
  .about-title{
