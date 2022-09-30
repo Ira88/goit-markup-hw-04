@@ -165,14 +165,16 @@ color: #212121;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
   }  
-.link-current {
-  color: #757575;;
+.link-current .link{
+  color: #757575;
   text-decoration: none;
   }
-  .link-current:hover, .link-current:focus svg{
+  .link-current .link:hover, 
+  .link-current .link:focus{
     color: #2196F3;
   }  
-  .link-current:hover svg{
+  .link-current .link:hover svg, 
+  .link-current .link:focus svg{
     fill:#2196F3;
   }
  
@@ -292,7 +294,8 @@ width: 216px;
 height: 50px;
   }
 
-.link-current-hero:hover, .link-current-hero:focus{
+.link-current-hero:hover, 
+.link-current-hero:focus{
   color: #FFFFFF;
   background: #2196F3;
   }  
@@ -320,7 +323,8 @@ height: 50px;
    cursor: pointer;
   padding: 6px 22px;
    }
-  .link-current-port:hover, .link-current-port:focus{
+  .link-current-port:hover, 
+  .link-current-port:focus{
     color: #FFFFFF;
     background: #2196F3;
   }
@@ -470,7 +474,7 @@ padding-bottom: 10px;
     height: 44px;
   }
 
-  .social-link{
+  .social-link .link{
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -480,11 +484,15 @@ padding-bottom: 10px;
     display: flex;
     fill: #757575;
   }
-  .social-link:hover{
+  .social-link .link:hover, 
+  .social-link .link:focus{
+    color: #fff;
     background-color: #2196F3;
   }
-  .social-link:hover svg{
+  .social-link .link:hover svg, 
+  .social-link .link:focus svg{
     fill: #fff;
+    background-color: #2196F3;
   }
   .visually-hidden{
     font-family: 'Roboto', sans-serif;
@@ -503,10 +511,11 @@ padding-bottom: 10px;
     letter-spacing: 0.03em;
     color: #757575;
   }
-  .gallery-item{
+  .gallery-item .item{
     width: 370px;
   }
-  .gallery-item:focus, .gallery-item:hover{
+  .gallery-item .item:focus, 
+  .gallery-item .item:hover{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   }
   .galary-wrapper{
@@ -564,11 +573,11 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.client-item:hover, .client-item:focus{
+.icon-client:hover, .icon-client:focus{
   border: 1px solid #2196F3;
   
   }
-  .client-item:hover svg{
+.icon-client:hover svg, .icon-client:focus svg{
     fill: #2196F3;
   }
 .svg-client{
@@ -687,7 +696,8 @@ align-items: center;
   display: flex;
   fill: #fff;
 }
-.footer-social-link:hover{
+.footer-social-link:hover,
+.footer-social-link:focus{
   background-color: #2196F3;
 }
 
