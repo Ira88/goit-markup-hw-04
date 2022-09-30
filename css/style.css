@@ -514,8 +514,12 @@ padding-bottom: 10px;
   .gallery-item{
     width: 370px;
   }
+  .imege{
+    display: block;
+  }
   .gallery-link{
     text-decoration: none;
+    display: block;
   }
   .gallery-link:focus, 
   .gallery-link:hover{
