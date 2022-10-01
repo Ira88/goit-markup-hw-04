@@ -75,11 +75,9 @@
     font-size: 12px;
     line-height:  1,3;
     letter-spacing: 0.9em;
-  
     background: #2196F3;
     cursor: pointer;
     color:  var(--primary-text-color);
-   
     width: 1200px;
     padding: 15px;
     margin-left: auto;
@@ -89,7 +87,7 @@
 /* Заголовок */
 
 .header{
-  padding-bottom: 94px;
+ 
   display: flex;
   align-items: center;
   column-gap: 50px;
@@ -123,8 +121,7 @@
 }
 .header .link-current{
 display: block;
-padding-top: 32px;
-padding-bottom: 31px;
+
 }
 
 .accent{
@@ -187,7 +184,6 @@ color: #212121;
   header.flex-container {
     column-gap: 93px;
   }
- 
 
 .header .header-link{
   display: block;
@@ -270,8 +266,6 @@ text-align: center;
 margin: auto;
 margin-bottom: 30px;
 }
-
-
 .hero-btn{
 font-size: 16px;
 letter-spacing: 0.06em;
@@ -304,7 +298,6 @@ height: 50px;
     color:  var(--primary-text-color);
   padding-bottom: 94px;
   padding: 86px 26px;
-
   }
   .port-list{
     display: flex;
